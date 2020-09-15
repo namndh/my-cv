@@ -7,16 +7,16 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Nam Nguyen
+    tagline: Data Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: hainam.nguyen.ict@gmail.com
+    phone: (+84)97 310 6096
+    website:
+    linkedin: namndh
+    github: namndh
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -26,23 +26,20 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Vietnamese
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Reading
         link:
 
-      - item: Snowboarding
+      - item: Pool Billard
         link:
 
-      - item: Cooking
+      - item: Runnning
         link:
 
 career-profile:
@@ -55,28 +52,11 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BE in Information Technology
+      university: Hanoi University of Science and Technology
+      time: 2014 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -104,17 +84,18 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role:
+      time: Apr 2018 - Oct 2018
+      company: Finsify
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I worked as a Machine Learning engineer intern. During the time working here, I contributed the projects:
+          - Trasaction classisifaction for MoneyLover applifcation:
+            - The objective is to classify transaction based on their description provided by banks
+            - In this project, I implemented a CNN and customized Word2Vec model to do classification task. I also prodide APIs for web/app
+          - User segmentation for crawling optimization:
+            - The objective is to segment users into groups depend on their activities to schedule servers to crawl data to save the cost
+            - I used statistic features and KNN to segments users in the system
+
 projects:
     title: Projects
     intro: >
